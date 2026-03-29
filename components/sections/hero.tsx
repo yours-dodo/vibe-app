@@ -5,8 +5,8 @@ import { homeContent } from "@/content/home";
 
 export function Hero() {
   return (
-    <section id="home" className="relative min-h-[92svh] pb-0 pt-0 sm:min-h-[94svh] sm:px-0 sm:pt-0">
-      <div className="hero-stage min-h-[calc(100svh-4.5rem)] pb-20 pt-0 sm:min-h-[calc(100svh-5rem)] sm:px-10 sm:pb-24 lg:px-14 lg:pb-28">
+    <section id="home" className="relative min-h-[100svh-10rem] pb-0 pt-0 sm:px-0 sm:pt-0">
+      <div className="hero-stage min-h-[calc(100svh-5rem)] pb-24 pt-0 sm:min-h-[calc(100svh-80rem)] sm:px-10 sm:pb-28 lg:px-14 lg:pb-32">
         <Image
           src="/fengshen/home/circle1.png"
           alt=""
@@ -24,12 +24,10 @@ export function Hero() {
           className="hidden object-cover opacity-[0.16] mix-blend-screen sm:block"
         />
 
-        <div className="relative mx-auto flex min-h-[calc(100svh-17rem)] max-w-5xl flex-col items-center justify-center pb-8 pt-20 text-center sm:min-h-[calc(100svh-18rem)] sm:pb-10 sm:pt-24 lg:min-h-[calc(100svh-19rem)] lg:pb-12 lg:pt-20">
+        <div className="relative mx-auto flex min-h-[calc(100svh-13rem)] max-w-5xl flex-col items-center justify-center pb-10 pt-24 text-center sm:min-h-[calc(100svh-14rem)] sm:pb-12 sm:pt-28 lg:min-h-[calc(100svh-15rem)] lg:pb-16 lg:pt-24">
           <Reveal>
-            <h1 className="text-balance text-[3.25rem] leading-[1.06] tracking-[-0.04em] text-white sm:text-[4.25rem] lg:text-[5rem]">
-              <span className="font-normal">封神</span>
-              <span className="font-semibold">AI</span>
-              <span className="font-normal">智能体</span>
+            <h1 className="text-balance text-[3.25rem] font-medium leading-[1.06] tracking-[-0.04em] text-white sm:text-[4.25rem] lg:text-[5rem]">
+              {homeContent.hero.title}
             </h1>
           </Reveal>
 
@@ -40,7 +38,7 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <p className="mt-5 text-base leading-7 text-white sm:text-[1.35rem] sm:leading-[2.1rem]">
+            <p className="mt-5 text-lg leading-8 text-white sm:text-[1.75rem] sm:leading-[2.6rem]">
               {homeContent.hero.description}
             </p>
           </Reveal>
@@ -48,7 +46,7 @@ export function Hero() {
           <Reveal delay={0.14}>
             <a
               href="#consult"
-              className="hero-cta-pill mt-10 inline-flex h-16 min-w-[206px] items-center justify-center rounded-full px-8 text-lg font-semibold text-white shadow-[0_18px_45px_rgba(4,16,54,0.2)] transition-transform hover:-translate-y-0.5 sm:mt-12 sm:h-20 sm:min-w-[264px] sm:px-12 sm:text-[1.65rem]"
+              className="hero-cta-pill mt-10 inline-flex h-16 min-w-[214px] items-center justify-center rounded-full px-8 text-lg font-semibold text-white transition-transform hover:-translate-y-0.5 sm:mt-12 sm:h-[72px] sm:min-w-[300px] sm:px-12 sm:text-[1.65rem]"
               style={{ color: "#ffffff" }}
             >
               {homeContent.hero.cta}

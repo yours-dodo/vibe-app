@@ -31,7 +31,7 @@ export function Workflow() {
             <div className="grid gap-4 sm:grid-cols-2">
               {homeContent.workflow.abilities.map((item, index) => (
                 <Reveal key={item.title} delay={0.1 + index * 0.04}>
-                  <article className="h-full rounded-[26px] border border-[#dbe4f2] bg-[#EEEFF4] p-5">
+                  <article className="h-full rounded-[26px] bg-[#EEEFF4] p-5">
                     <div className="flex items-center gap-3">
                       <span className="flex h-11 w-12 items-center justify-center rounded-[12px] bg-[#4C73F6]">
                         <Image

@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="page-shell overflow-x-clip">
       <Header />
-      <main className="flex-1">
+      <main className="flex flex-1 flex-col gap-4 sm:gap-5 lg:gap-6">
         <Hero />
         <CapabilityOverview />
         <Workflow />

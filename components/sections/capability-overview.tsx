@@ -5,7 +5,7 @@ import { homeContent } from "@/content/home";
 
 export function CapabilityOverview() {
   return (
-    <section className="pb-12 pt-24 sm:pb-16 sm:pt-28 lg:pt-32">
+    <section className="mt-24 pb-12 pt-24 sm:mt-28 sm:pb-16 sm:pt-28 lg:mt-32 lg:pt-32">
       <Container>
         <Reveal>
           <div className="mx-auto max-w-5xl text-center">
