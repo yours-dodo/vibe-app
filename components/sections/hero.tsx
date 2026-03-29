@@ -25,33 +25,27 @@ export function Hero() {
         />
 
         <div className="relative mx-auto flex min-h-[500px] max-w-5xl flex-col items-center justify-center pb-8 pt-24 text-center sm:min-h-[calc(100svh-14rem)] sm:pb-12 sm:pt-28 lg:min-h-[calc(100svh-15rem)] lg:pb-16 lg:pt-24">
-          <Reveal>
-            <h1 className="text-balance text-[3.25rem] font-medium leading-[1.06] tracking-[-0.04em] text-white sm:text-[4.25rem] lg:text-[5rem]">
-              {homeContent.hero.title}
-            </h1>
-          </Reveal>
+          <h1 className="text-balance text-[2.7rem] leading-[1.06] tracking-[-0.04em] text-white sm:text-[4.25rem] lg:text-[5rem]">
+            <span className="font-normal">封神</span>
+            <span className="font-semibold">AI</span>
+            <span className="font-normal">智能体</span>
+          </h1>
 
-          <Reveal delay={0.05}>
-            <p className="hero-gradient-text mt-3 text-[3.75rem] font-semibold leading-none tracking-[-0.05em] sm:text-[5rem] lg:text-[6.25rem]">
-              {homeContent.hero.highlight}
-            </p>
-          </Reveal>
+          <p className="hero-gradient-text mt-3 text-[3.05rem] font-semibold leading-none tracking-[-0.05em] sm:text-[5rem] lg:text-[6.25rem]">
+            赋能IP流量增长
+          </p>
 
-          <Reveal delay={0.1}>
-            <p className="mt-5 text-lg leading-8 text-white sm:text-[1.75rem] sm:leading-[2.6rem]">
-              {homeContent.hero.description}
-            </p>
-          </Reveal>
+          <p className="mt-5 text-[0.95rem] leading-6 text-white sm:text-[1.75rem] sm:leading-[2.6rem]">
+            用好AI，IP打造弯道超车
+          </p>
 
-          <Reveal delay={0.14}>
-            <a
-              href="#consult"
-              className="hero-cta-pill mt-10 inline-flex h-16 min-w-[214px] items-center justify-center rounded-full px-8 text-lg font-semibold text-white transition-transform hover:-translate-y-0.5 sm:mt-12 sm:h-[72px] sm:min-w-[300px] sm:px-12 sm:text-[1.65rem]"
-              style={{ color: "#ffffff" }}
-            >
-              {homeContent.hero.cta}
-            </a>
-          </Reveal>
+          <a
+            href="#consult"
+            className="hero-cta-pill mt-10 inline-flex h-16 min-w-[214px] items-center justify-center rounded-full px-8 text-lg font-semibold text-white transition-transform hover:-translate-y-0.5 sm:mt-12 sm:h-[72px] sm:min-w-[300px] sm:px-12 sm:text-[1.65rem]"
+            style={{ color: "#ffffff" }}
+          >
+            {homeContent.hero.cta}
+          </a>
         </div>
 
         <div className="hero-stat-ribbon absolute inset-x-4 bottom-0 translate-y-[36%] rounded-[18px] px-4 py-5 sm:inset-x-12 sm:translate-y-1/2 sm:rounded-[14px] sm:px-10 sm:py-8 lg:inset-x-24 lg:px-14 lg:py-9 xl:inset-x-28">

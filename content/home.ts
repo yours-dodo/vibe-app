@@ -10,9 +10,6 @@ export const homeContent = {
     { label: "预约咨询", href: "#consult" },
   ],
   hero: {
-    title: "封神AI智能体",
-    highlight: "赋能IP流量增长",
-    description: "用好AI，IP打造弯道超车",
     cta: "预约咨询",
     login: "登录",
     stats: [
